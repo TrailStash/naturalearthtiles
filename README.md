@@ -1,30 +1,18 @@
 # Natural Earth Vector and Raster Tiles [![BSD-3 and PDDL licensed](https://img.shields.io/badge/license-BSD--3/PDDL-blue.svg)](https://github.com/lukasmartinelli/naturalearthtiles#license) [![Build Status](https://travis-ci.org/lukasmartinelli/naturalearthtiles.svg?branch=master)](https://travis-ci.org/lukasmartinelli/naturalearthtiles)
 
-[**naturalearthtiles.org**](http://naturalearthtiles.org/) provides prerendered vector and raster tiles for [Natural Earth](http://naturalearthdata.com/).
+[**trailstash.github.io/naturalearthtiles**](https://trailstash.github.io/naturalearthtiles/) provides prerendered vector and raster tiles for [Natural Earth](http://naturalearthdata.com/).
 
 The vector tiles are encoded in the [Mapbox vector tile specification](https://github.com/mapbox/vector-tile-spec) for use with Mapbox GL or other clients and consist of carefully curated layers from the cultural and physical data sets.
 
 The raster tiles are made from the [Natural Earth Raster TIF files](http://www.naturalearthdata.com/downloads/10m-raster-data/)
 and are ideal as base layer or shading for your base maps.
 
-[**:globe_with_meridians: Check the demo at naturalearthtiles.org**](http://naturalearthtiles.org)
-
-[**:open_file_folder: Download the vector and raster tiles from the releases page**](https://github.com/lukasmartinelli/natural-earth-vector-tiles/releases/latest).
+[**:globe_with_meridians: Check the demo at trailstash.github.io/naturalearthtiles**](https://trailstash.github.io/naturalearthtiles)
 
 ![Mapbox GL visualization of Natural Earth vector tiles](vector_demo.gif)
 ![Natural Earth raster tiles demo](raster_demo.gif)
 
 For high zoom level vector tiles please checkout our project to [create vector tiles from Open Street Map](http://osm2vectortiles.org).
-
-## Use Vector Tiles
-
-You can use [**mbview**](https://github.com/mapbox/mbview) to take a look at the MBTiles vector tiles locally.
-To display the vector tiles with Mapbox GL you need a tileserver.
-
-Tileservers:
-- [tessera](https://github.com/mojodna/tessera)
-- [tileserver-gl-light](https://github.com/osm2vectortiles/tileserver-gl-light)
-- [tileserver-gl](https://github.com/klokantech/tileserver-gl)
 
 ## Run Workflow
 
