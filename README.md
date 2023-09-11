@@ -1,4 +1,4 @@
-# Natural Earth Vector and Raster Tiles [![BSD-3 and PDDL licensed](https://img.shields.io/badge/license-BSD--3/PDDL-blue.svg)](https://github.com/lukasmartinelli/naturalearthtiles#license) [![Build Status](https://travis-ci.org/lukasmartinelli/naturalearthtiles.svg?branch=master)](https://travis-ci.org/lukasmartinelli/naturalearthtiles)
+# Natural Earth Vector and Raster Tiles [![BSD-3 and PDDL licensed](https://img.shields.io/badge/license-BSD--3/PDDL-blue.svg)](https://github.com/trailstash/naturalearthtiles#license)
 
 [**trailstash.github.io/naturalearthtiles**](https://trailstash.github.io/naturalearthtiles/) provides prerendered vector and raster tiles for [Natural Earth](http://naturalearthdata.com/).
 
