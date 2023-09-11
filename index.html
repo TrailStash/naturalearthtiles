@@ -29,10 +29,21 @@ published: true
   <div id="planet-list">
     <div class="col12 download-item">
       <div class="col4 download-title">
-       Natural Earth
+       Natural Earth Tiles
       </div>
       <div class="col8 clipboard">
         <input id="natural_earth_vector" class="clipboard-input" value="https://trailstash.github.io/naturalearthtiles/tiles/natural_earth.vector/{z}/{x}/{y}.pbf">
+        <button class="clipboard-button hint--bottom hint--rounded" data-clipboard-target="#natural_earth_vector" onclick="setHint(this, 'Copied!')" onmouseout="setHint(this, 'Copy to clipboard')">
+            <img src="img/clipboard-black.svg" class="clipboard-img" alt="Copy to clipboard">
+        </button>
+      </div>
+    </div>
+    <div class="col12 download-item">
+      <div class="col4 download-title">
+       Natural Earth Style
+      </div>
+      <div class="col8 clipboard">
+        <input id="natural_earth_vector" class="clipboard-input" value="https://trailstash.github.io/naturalearthtiles/natural_earth.vector.json">
         <button class="clipboard-button hint--bottom hint--rounded" data-clipboard-target="#natural_earth_vector" onclick="setHint(this, 'Copied!')" onmouseout="setHint(this, 'Copy to clipboard')">
             <img src="img/clipboard-black.svg" class="clipboard-img" alt="Copy to clipboard">
         </button>

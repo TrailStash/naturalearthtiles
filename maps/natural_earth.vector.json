@@ -82,7 +82,7 @@
             "source": "ne_2_hr_lc_sr",
             "interactive": true,
             "layout": {
-                "visibility": "visible"
+                "visibility": "none"
             },
             "paint": {
                 "raster-opacity": {
