@@ -12,7 +12,7 @@ published: true
         <a href="http://www.naturalearthdata.com/">Natural Earth</a> is one of the best public domain data sets and now you can instantly use it for your mapping projects by using the prerendered vector or raster tiles.
         </p>
         <p class="big readable">
-        Check out the <a href="https://github.com/lukasmartinelli/naturalearthtiles">GitHub repository</a> for usage guides and more information.
+        Check out the <a href="https://github.com/trailstash/naturalearthtiles">GitHub repository</a> for usage guides and more information.
         </p>
     </div>
   </div>
@@ -22,21 +22,17 @@ published: true
   <div class="container">
   <h1 class="center padb-3">Vector Tiles</h1>
   <p>The Natural Earth Vector Tiles support the <a href="https://github.com/mapbox/vector-tile-spec">Mapbox Vector Tile Spec</a> and consist of carefully curated layers from the cultural and physical vector data from Natural Earth.
-  Style the tiles with <a href="http://osm2vectortiles.org/docs/create-map-with-mapbox-studio">Mapbox Studio</a> and display them with <a href="http://osm2vectortiles.org/docs/getting-started">Mapbox GL JS</a>.
   </p>
   <div class="col12" style="padding-left:0px;padding-right:0px;">
     <iframe src="maps/natural_earth.vector.html" frameborder="0" class="col12 map-container" style="height:450px; margin-left:-15px;margin-right:-15px; padding:0px;"></iframe>
   </div>
   <div id="planet-list">
     <div class="col12 download-item">
-      <div class="col4 download-title" onclick="location.href='https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth.vector.mbtiles'">
+      <div class="col4 download-title">
        Natural Earth
       </div>
-      <div class="col2" onclick="location.href='https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth.vector.mbtiles'">
-        20 MB
-      </div>
-      <div class="col6 clipboard">
-        <input id="natural_earth_vector" class="clipboard-input" value="https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth.vector.mbtiles">
+      <div class="col8 clipboard">
+        <input id="natural_earth_vector" class="clipboard-input" value="https://trailstash.gitlab.io/naturalearthtiles/tiles/natural_earth.vector/{z}/{x}/{y}.webp">
         <button class="clipboard-button hint--bottom hint--rounded" data-clipboard-target="#natural_earth_vector" onclick="setHint(this, 'Copied!')" onmouseout="setHint(this, 'Copy to clipboard')">
             <img src="img/clipboard-black.svg" class="clipboard-img" alt="Copy to clipboard">
         </button>
@@ -55,84 +51,66 @@ published: true
   </div>
   <div>
     <div class="col12 download-item">
-      <div class="col4 download-title" onclick="location.href='https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth_2.raster.mbtiles'">
+      <div class="col4 download-title">
         Natural Earth II
       </div>
-      <div class="col2" onclick="location.href='https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth_2.raster.mbtiles'">
-        12 MB
-      </div>
-      <div class="col6 clipboard">
-        <input id="natural_earth_2_raster" class="clipboard-input" value="https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth_2.raster.mbtiles">
+      <div class="col8 clipboard">
+        <input id="natural_earth_2_raster" class="clipboard-input" value="https://trailstash.gitlab.io/naturalearthtiles/tiles/natural_earth_2.raster/{z}/{x}/{y}.webp">
         <button class="clipboard-button hint--bottom hint--rounded" data-clipboard-target="#natural_earth_2_raster" onclick="setHint(this, 'Copied!')" onmouseout="setHint(this, 'Copy to clipboard')">
             <img src="img/clipboard-black.svg" class="clipboard-img" alt="Copy to clipboard">
         </button>
       </div>
     </div>
     <div class="col12 download-item">
-      <div class="col4 download-title" onclick="location.href='https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth_2_shaded_relief.raster.mbtiles'">
+      <div class="col4 download-title">
         Natural Earth II with Shaded Relief
       </div>
-      <div class="col2" onclick="location.href='https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth_2_shaded_relief.raster.mbtiles'">
-        19 MB
-      </div>
-      <div class="col6 clipboard">
-        <input id="natural_earth_2_shaded_relief_raster" class="clipboard-input" value="https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth_2_shaded_relief.raster.mbtiles">
+      <div class="col8 clipboard">
+        <input id="natural_earth_2_shaded_relief_raster" class="clipboard-input" value="https://trailstash.gitlab.io/naturalearthtiles/tiles/natural_earth_2_shaded_relief.raster/{z}/{x}/{y}.webp">
         <button class="clipboard-button hint--bottom hint--rounded" data-hint="Copy to clipboard" data-clipboard-target="#natural_earth_2_shaded_relief_raster" onclick="setHint(this, 'Copied!')" onmouseout="setHint(this, 'Copy to clipboard')">
             <img src="img/clipboard-black.svg" class="clipboard-img" alt="Copy to clipboard">
         </button>
       </div>
     </div>
     <div class="col12 download-item">
-      <div class="col4 download-title" onclick="location.href='https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth_cross_blended_hypso.raster.mbtiles'">
+      <div class="col4 download-title">
         Cross-blended Hypsometric Tints
       </div>
-      <div class="col2" onclick="location.href='https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth_cross_blended_hypso.raster.mbtiles'">
-        8 MB
-      </div>
-      <div class="col6 clipboard">
-        <input id="natural_earth_cross_blended_hypso_raster" class="clipboard-input" value="https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth_cross_blended_hypso.raster.mbtiles">
+      <div class="col8 clipboard">
+        <input id="natural_earth_cross_blended_hypso_raster" class="clipboard-input" value="https://trailstash.gitlab.io/naturalearthtiles/tiles/natural_earth_cross_blended_hypso.raster/{z}/{x}/{y}.webp">
         <button class="clipboard-button hint--bottom hint--rounded" data-hint="Copy to clipboard" data-clipboard-target="#natural_earth_cross_blended_hypso_raster" onclick="setHint(this, 'Copied!')" onmouseout="setHint(this, 'Copy to clipboard')">
             <img src="img/clipboard-black.svg" class="clipboard-img" alt="Copy to clipboard">
         </button>
       </div>
     </div>
     <div class="col12 download-item">
-      <div class="col4 download-title" onclick="location.href='https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth_cross_blended_hypso_shaded_relief.raster.mbtiles'">
+      <div class="col4 download-title">
         Cross-blended Hypsometric Tints with Shaded Relief
       </div>
-      <div class="col2" onclick="location.href='https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth_cross_blended_hypso_shaded_relief.raster.mbtiles'">
-        20MB
-      </div>
-      <div class="col6 clipboard">
-        <input id="natural_earth_cross_blended_hypso_relief_raster" class="clipboard-input" value="https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth_cross_blended_hypso_shaded_relief.raster.mbtiles">
+      <div class="col8 clipboard">
+        <input id="natural_earth_cross_blended_hypso_relief_raster" class="clipboard-input" value="https://trailstash.gitlab.io/naturalearthtiles/tiles/natural_earth_cross_blended_hypso_shaded_relief.raster/{z}/{x}/{y}.webp">
         <button class="clipboard-button hint--bottom hint--rounded" data-hint="Copy to clipboard" data-clipboard-target="#natural_earth_cross_blended_hypso_relief_raster" onclick="setHint(this, 'Copied!')" onmouseout="setHint(this, 'Copy to clipboard')">
             <img src="img/clipboard-black.svg" class="clipboard-img" alt="Copy to clipboard">
         </button>
       </div>
     </div>
     <div class="col12 download-item">
-      <div class="col4 download-title" onclick="location.href='https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth_gray_earth_hypso_shaded_relief.raster.mbtiles'">
+      <div class="col4 download-title">
         Gray Earth with Shaded Relief and Hypsography
       </div>
-      <div class="col2" onclick="location.href='https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth_gray_earth_hypso_shaded_relief.raster.mbtiles'">
-        16 MB
-      </div>
-      <div class="col6 clipboard">
-        <input id="natural_earth_gray_earth_hypso_shaded_relief_raster" class="clipboard-input" value="https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth_gray_earth_hypso_shaded_relief.raster.mbtiles">
+      <div class="col8 clipboard">
+        <input id="natural_earth_gray_earth_hypso_shaded_relief_raster" class="clipboard-input" value="https://trailstash.gitlab.io/naturalearthtiles/tiles/natural_earth_gray_earth_hypso_shaded_relief.raster/{z}/{x}/{y}.webp">
         <button class="clipboard-button hint--bottom hint--rounded" data-hint="Copy to clipboard" data-clipboard-target="#natural_earth_gray_earth_hypso_shaded_relief_raster" onclick="setHint(this, 'Copied!')" onmouseout="setHint(this, 'Copy to clipboard')">
             <img src="img/clipboard-black.svg" class="clipboard-img" alt="Copy to clipboard">
         </button>
       </div>
     </div>
     <div class="col12 download-item">
-      <div class="col4 download-title" onclick="location.href='https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth_shaded_relief.raster.mbtiles'">
+      <div class="col4 download-title">
         Shaded Relief Basic
       </div>
-      <div class="col2" onclick="location.href='https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth_shaded_relief.raster.mbtiles'">
-        19 MB
-      </div>
-      <div class="col6 clipboard">
-        <input id="natural_earth_shaded_relief_basic_raster" class="clipboard-input" value="https://github.com/lukasmartinelli/naturalearthtiles/releases/download/v1.0/natural_earth_shaded_relief.raster.mbtiles">
+      <div class="col8 clipboard">
+        <input id="natural_earth_shaded_relief_basic_raster" class="clipboard-input" value="https://trailstash.gitlab.io/naturalearthtiles/tiles/natural_earth_shaded_relief.raster/{z}/{x}/{y}.webp">
         <button class="clipboard-button hint--bottom hint--rounded" data-hint="Copy to clipboard" data-clipboard-target="#natural_earth_shaded_relief_basic_raster" onclick="setHint(this, 'Copied!')" onmouseout="setHint(this, 'Copy to clipboard')">
             <img src="img/clipboard-black.svg" class="clipboard-img" alt="Copy to clipboard">
         </button>

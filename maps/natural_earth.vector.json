@@ -51,14 +51,14 @@
     "sources": {
         "natural_earth": {
             "tiles": [
-                "https://klokantech.github.io/naturalearthtiles/tiles/natural_earth.vector/{z}/{x}/{y}.pbf"
+                "https://trailstash.github.io/naturalearthtiles/tiles/natural_earth.vector/{z}/{x}/{y}.pbf"
             ],
             "maxzoom": 7,
             "type": "vector"
         },
         "ne_2_hr_lc_sr": {
             "tiles": [
-                "https://klokantech.github.io/naturalearthtiles/tiles/natural_earth_2_shaded_relief.raster/{z}/{x}/{y}.png"
+                "https://trailstash.github.io/naturalearthtiles/tiles/natural_earth_2_shaded_relief.raster/{z}/{x}/{y}.png"
             ],
             "type": "raster",
             "tileSize": 256,
