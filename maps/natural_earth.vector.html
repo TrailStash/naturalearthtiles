@@ -23,9 +23,9 @@ if (!mapboxgl.supported()) {
     style: './natural_earth.vector.json',
     center: [8.54137, 47.36840],
     zoom: 3,
-    maxZoom: 7
+    maxZoom: 11
+    cooperativeGestures: true,
 	});
-  map.scrollZoom.disable();
   map.addControl(new mapboxgl.Navigation());
 }
 </script>
