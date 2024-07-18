@@ -65,8 +65,8 @@
             "maxzoom": 6
         }
     },
-    "sprite": "https://raw.githubusercontent.com/osm2vectortiles/mapbox-gl-styles/master/sprites/bright-v9",
-    "glyphs": "https://raw.githubusercontent.com/osm2vectortiles/mapbox-gl-styles/master/glyphs/{fontstack}/{range}.pbf",
+    "sprite": "https://trailstash.github.io/naturalearthtiles/sprites/bright-v9",
+    "glyphs": "https://trailstash.github.io/naturalearthtiles/fonts/{fontstack}/{range}.pbf",
     "layers": [
         {
             "id": "background",
